@@ -4,49 +4,53 @@
 
 <br/>
 
-[![Extension version](https://img.shields.io/github/manifest-json/v/matnsc/StudyTimer.svg)](https://github.com/matnsc/StudyTimer "Extension version")
-[![Firefox Addon Rating](https://img.shields.io/amo/rating/studytimer.svg "Mozilla Add-ons Rating")](https://addons.mozilla.org/en-US/firefox/addon/studytimer/) 
-[![License](https://img.shields.io/github/license/matnsc/StudyTimer.svg "License")](http://www.gnu.org/licenses/gpl-3.0.en.html) 
+![WebExtensions](https://img.shields.io/badge/WebExtensions-purple?logo=webpack&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox-Browser&logoColor=white)
+![Opera](https://img.shields.io/badge/Opera-FF1B2D?logo=Opera&logoColor=white)
+![Extension version](https://img.shields.io/github/manifest-json/v/StudyTimer-Extension/StudyTimer.svg)
+![Firefox Addon Rating](https://img.shields.io/amo/rating/studytimer.svg "Mozilla Add-ons Rating")
+![GPLv2](https://img.shields.io/badge/GPLv2-white?logo=gnu&logoColor=black)
 
-<br/>
+**StudyTimer** is a manifest v2 cross-platform browser extension created to help manage time and increase productivity using the **Pomodoro Technique**.
 
-StudyTimer is a manifest v2 cross-platform browser extension created to help manage time and increase productivity using the Pomodoro Technique.
+## ✨ Features
 
-## Pomodoro Technique
+- **Automatic change**: Timer is changed automatically at the end of each interval or break
+- **Customizable**: Set your preferred interval and break time
+- **Save sessions**: Sessions are saved, resume them anytime
+- **Autostart**: Start the timer as soon as you open the browser
+- **Dark mode**: Toggle between light and dark themes
 
-For information about the Pomodoro Technique, visit the official page: https://www.pomodorotechnique.com/what-is-the-pomodoro-technique.php
+## 🍅 Pomodoro Technique
 
-## Features
+The Pomodoro Technique is a time management method that breaks work into 25-minute focused intervals (Pomodoros), separated by 5-minute breaks. After four Pomodoros, you take a longer 15-30 minute break. It's designed to improve focus and productivity by balancing intense work and rest.
 
-- Automatic timer change flow (Task -> Break -> Task again -> ...)
-- Customizable timers, pomodoros and notifications
-- Sessions can be saved (No need to start again after the browser is closed)
-- Option to start automatically when the browser is open
-- Dark mode support
+Visit the [official page](https://www.pomodorotechnique.com/what-is-the-pomodoro-technique.php) for more information.
 
-## Installation
+## 🔧 Installation
 
-### From the Store
+### 🚀 Official Releases
+
+Install it from your browser's extension store.
 
 <a href="https://addons.mozilla.org/firefox/addon/studytimer/" target="_blank"><img src="icons/firefox.png" alt="Firefox Add-ons"></a>
 <a href="https://addons.opera.com/extensions/details/studytimer/" target="_blank"><img src="icons/opera.png" alt="Opera Add-ons"></a>
 
-*Versions for Chrome, Edge and Safari won't be released due to manifest v3 being a broken mess to work with
+\* You can't install it on Chrome, Edge or Safari due to **manifest v2 deprecation**.
 
-**It may still be possible to run on those browsers if the extension is loaded locally.
+** It may still be possible to run it on those browsers if the extension is built or loaded locally.
 
-### From Source Files (Debug)
-Download the zip file by clicking on the button **<> Code** > **Download ZIP**. After done, extract it in any folder you want.
+### 📁 From Source Files
 
-Follow the instructions to load extension in debug mode on your browser:
+You may want to load the extension directly to your browser for **debug** purposes.
 
-Firefox: https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/
+To achieve this, you need to download the repository by clicking in ```Code -> Download Zip``` or by using ```git clone```. After the download is complete, extract the files (if necessary) and follow the instructions to load extensions in debug mode on your browser:
 
-Chrome: https://developer.chrome.com/docs/extensions/mv3/tut_debugging/#debug_bg
+- [Chrome](https://developer.chrome.com/docs/extensions/mv3/tut_debugging/#debug_bg)
+- [Firefox](https://extensionworkshop.com/documentation/develop/temporary-installation-in-firefox/)
+- [Opera](https://dev.opera.com/extensions/testing/)
 
-Opera: https://dev.opera.com/extensions/testing/
+## 📑 License
+StudyTimer is available under the [GNU GPLv2](./LICENSE) license.
 
-## License
-StudyTimer is licensed under GNU General Public License 3.0 ([GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html "GPLv3")).
-
-[To The Point](https://notificationsounds.com/message-tones/to-the-point-568 "To The Point") from **Notification sounds** is licensed under Creative Commons 4.0 ([CC Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode "CC Attribution 4.0")).
+The [notification sound](https://notificationsounds.com/message-tones/to-the-point-568) is available under the [CC Attribution 4.0](https://creativecommons.org/licenses/by/4.0/legalcode).
